@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
+* {
+    background-color: #383838;
+    font-family: 13px Roboto, system-ui, sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.Google_pfp {
+    height: 300px;
+    width: 40%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.Google_day {
+    background: rgb(0, 36, 97);
+    border: 0px solid #555;
+    border-radius: 25px;
+}
+
+
+.top-right {
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 88%;
+    color: #fff;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.pfp {
+    border: 0px solid #555;
+    border-radius: 15px;
+}
+
+.search {   
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 10px;
+    background-color: #fff;
+    height: 40px;
+    border-radius: 15px;
+    border: 1px #000 solid;
+}
+
+::placeholder {
+    text-indent: 10px;
+}
+
+input#search:focus {
+    background-image:none;
+    text-indent:0px
+}
+
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+a:visited {
+    text-decoration: none;
+    color: #fff;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.used-icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    margin-left: 35%;
+    margin-right: 35%;
+    margin-top: 4%;
+    height: 30px;
+}
+
+#youtube {
+    height: 30px;
+    width: 30px;
+    padding: 20%;
+    background-color: #000;  
+    border-radius: 50%;
+    border: 1px #000 solid;
+}
+#netflix {
+    height: 30px;
+    width: 30px;  
+    padding: 20%;
+    background-color: #000;  
+    border-radius: 50%;
+    border: 1px #000 solid;
+}
+#netflix2 {
+    height: 30px;
+    width: 30px;  
+    padding: 20%;
+    background-color: #000;  
+    border-radius: 50%;
+    border: 1px #000 solid;
+}
+#xfinity {
+    height: 30px;
+    width: 30px;  
+    padding: 20%;
+    background-color: #000; 
+    border-radius: 50%;
+    border: 1px #000 solid; 
+}
+#gmail {
+    height: 30px;
+    width: 30px;  
+    padding: 20%;
+    background-color: #000;  
+    border-radius: 50%;
+    border: 1px #000 solid;
+}
+
+.ytname {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 12px;
+}
+
+.gmname {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 12px;
+}
+
+.netflixname {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 12px;
+}
+
+.xfname {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 12px;
+}
+
+.plusname {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 12px;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    margin-top: 20%;
+    margin-left: 43%;
+    font-size: 13px;
+    color: #8AB4F8;
+    font-weight: 400;
+}
+
+#Customize {
+    margin-right: 40px;
+    padding: 0.8%;
+    background-color: rgb(26, 25, 25); 
+    border-radius: 15px;
+    border: 0px #000 solid;
+    font-size: 13px;
+}
+
+#thanks {
+    padding: 0.8%;
+    background-color: rgb(26, 25, 25); 
+    border-radius: 15px;
+    border: 0px #000 solid;
+    font-size: 12px;
+}
+  
